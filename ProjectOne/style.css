@@ -67,10 +67,20 @@ body {
 .heading{
     font-size: 3rem;
     font-weight: bolder;
+    margin: 0;
+    padding: 5% 0 0;
+}
+
+.heading-sub-text {
+    padding: 2% 0 2%;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .sign-up {
-    width: 10%;
+    width: 25%;
+    height: 13%;
+    border-radius: 10px;
 }
 
 .right-div {

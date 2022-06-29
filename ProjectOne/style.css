@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 body {
     margin: 0;
@@ -10,7 +10,9 @@ body {
 .header {
     display: flex;
     padding: 1rem;
-    background-color: beige;
+    background-color: #393e4d;
+    padding-top: 2%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-logo {
@@ -19,6 +21,9 @@ body {
     height: 100%;
     align-items: center;
     justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white
 }
 
 .header-list {
@@ -34,9 +39,11 @@ body {
     margin:0;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
     height: 100%;
-    list-style-type: none; 
+    list-style-type: none;
+    color: white;
+    font-weight: bold; 
+    font-size: 1rem;
 }
 
 .header-list-items li {
@@ -45,23 +52,24 @@ body {
 }
 
 /* Top Section */
-
+ 
 .top-section {
     width: 100%;
     height: 30%;
-    background-color: blueviolet;
+    background-color: #393e4d;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
-
+    /* Top Left */
 .left-div {
     display: flex;
     width: 35%;
     height: 75%;
-    background-color: bisque;
     flex-direction: column;
+    margin-right: 2.5%;
 }
 
 .heading{
@@ -74,17 +82,110 @@ body {
 .heading-sub-text {
     padding: 2% 0 2%;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: lighter;
 }
 
 .sign-up {
     width: 25%;
     height: 13%;
     border-radius: 10px;
+    background-color: #469afa;
+    color: white;
+    font-weight: bold;
+    border-style: none;
 }
-
+    /* Top Right */
 .right-div {
     width: 35%;
     background-color: darkgrey;
     height: 75%;
+    margin-left: 2.5%;
 }
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Middle Section One */
+
+.middle-section-one {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mso-heading {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #393e4d;
+}
+
+.mso-list-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mso-list-items ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.mso-list-items li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mso-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.mso-div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    border-style: solid;
+    border-radius: 1.5rem;
+    border-width: 0.25rem;
+    border-color: #393e4d;
+}
+
+.mso-div p {
+    height: 20%;
+    width: 50%;
+    color: #393e4d
+}
+
+.img-so {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+/* Middle Section Two */

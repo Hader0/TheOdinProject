@@ -9,21 +9,22 @@ body {
 /* Header */
 .header {
     display: flex;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #393e4d;
-    padding-top: 2%;
     font-family: 'Roboto', sans-serif;
+    height: 2.5%;
 }
 
 .header-logo {
     display: flex;
+    justify-content: first baseline;
+    align-self: center;
+    margin-left: 10%;
     width: 35%;
     height: 100%;
-    align-items: center;
-    justify-content: center;
     font-size: 1.5rem;
     font-weight: bolder;
-    color: white
+    color: white;
 }
 
 .header-list {
@@ -47,7 +48,11 @@ body {
 }
 
 .header-list-items li {
-    padding-right: 2rem;
+    display: flex;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5rem;
     height: 100%;
 }
 
@@ -62,11 +67,12 @@ body {
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     color: white;
+    padding-bottom: 1.5rem;
 }
     /* Top Left */
 .left-div {
     display: flex;
-    width: 35%;
+    width: 25%;
     height: 75%;
     flex-direction: column;
     margin-right: 2.5%;
@@ -76,7 +82,6 @@ body {
     font-size: 3rem;
     font-weight: bolder;
     margin: 0;
-    padding: 5% 0 0;
 }
 
 .heading-sub-text {
@@ -86,8 +91,9 @@ body {
 }
 
 .sign-up {
-    width: 25%;
-    height: 13%;
+    width: 20%;
+    padding: 10px;
+    margin-top: 0.25rem;
     border-radius: 10px;
     background-color: #469afa;
     color: white;
@@ -96,7 +102,7 @@ body {
 }
     /* Top Right */
 .right-div {
-    width: 35%;
+    width: 20%;
     background-color: darkgrey;
     height: 75%;
     margin-left: 2.5%;
@@ -114,19 +120,23 @@ body {
     height: 30%;
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    margin-top: 1.5rem;
 }
 
 .mso-heading {
     display: flex;
-    width: 100%;
-    height: 25%;
     align-items: center;
     justify-content: center;
-    font-size: 1.75rem;
+    width: 100%;
+    height: 25%;
+    font-size: 2rem;
     font-weight: bold;
     color: #393e4d;
+    margin: 1rem 0 1rem;
 }
 
 .mso-list-items {
@@ -134,23 +144,20 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    width: 60%;
 }
 
 .mso-list-items ul {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
 .mso-list-items li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     width: 100%;
 }
@@ -170,10 +177,6 @@ body {
     justify-content: center;
     height: 50%;
     width: 50%;
-    border-style: solid;
-    border-radius: 1.5rem;
-    border-width: 0.25rem;
-    border-color: #393e4d;
 }
 
 .mso-div p {
@@ -185,7 +188,100 @@ body {
 .img-so {
     width: 100%;
     height: 100%;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
+    border-color: #393e4d;
+    border-style: solid;
 }
 
 /* Middle Section Two */
+
+.middle-section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.quote {
+    font-size: 1.7rem;
+    font-style: italic;
+    color: #393e4d;
+}
+
+.quoter {
+    align-self: flex-end;
+    color: #393e4d;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Middle Section Three */
+
+.middle-section-three {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.call {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #469afa;
+    height: 40%;
+    border-radius: 0.5rem;
+}
+
+.call-text-main {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.call-sub-text {
+    font-size: 0.8rem;
+}
+
+.call-button {
+    width: 10%;
+    padding: 8px;
+    background-color: #469afa;
+    color: white;
+    border-radius: 0.35rem;
+    border-color: white;
+    border-style: solid;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #393e4d;
+}
+
+.copy { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
